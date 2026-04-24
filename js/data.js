@@ -572,7 +572,65 @@ Yuvabot Lab Pvt. Ltd.`,
             size: "1MB"
         }
     ]
+},
+{
+  
+    id: 51,
+    sender: "Dilip Bhardwaj",
+    senderEmail: "hr@yuvabot.com",
+    avatarLetter: 'D',
+    avatarColor: 'orange',
+
+    subject: "Your Performance Report – Yuvabot Lab Pvt. Ltd.",
+    preview: "Please find your performance report for Q1 2026 attached for your review.",
+
+    body: `
+<p>Dear Amit,</p>
+
+<p>We hope you are doing well.</p>
+
+<p>We are pleased to share your <b>Performance Report for Q1 2026</b>. This report provides a detailed overview of your work, achievements, and areas for improvement during this period.</p>
+
+<p>The report includes:</p>
+<ul>
+<li><b>Overall Performance Summary</b></li>
+<li><b>Project Contributions</b></li>
+<li><b>Skill Assessment</b></li>
+<li><b>Areas of Improvement</b></li>
+<li><b>Goals for the Next Quarter</b></li>
+</ul>
+
+<p>We encourage you to review the document carefully and connect with your reporting manager if you would like to discuss your performance in detail.</p>
+
+<p>Please note that this report is confidential and intended solely for your reference.</p>
+
+<p>We appreciate your hard work and contributions. Keep up the great work!</p>
+
+<p>Warm regards,<br>
+Dilip Bhardwaj<br>
+HR Team<br>
+Yuvabot Lab Pvt. Ltd.</p>
+`,
+
+    time: "20 Apr",
+    date: "20 Apr",
+
+    isUnread: true,
+    isStarred: false,
+
+    category: "primary",
+
+    hasAttachment: true,
+    attachments: [
+        {
+            type: "pdf",
+            name: "Performance_Report_Q1_2026.pdf",
+            url: "./Performance.pdf",
+            size: "1MB"
+        }
+    ]
 }
+
 ];
 
 const CATEGORIES = {
