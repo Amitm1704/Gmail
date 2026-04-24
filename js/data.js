@@ -629,9 +629,303 @@ Yuvabot Lab Pvt. Ltd.</p>
             size: "1MB"
         }
     ]
+},
+
+{
+  id: 60,
+  sender: "Amazon",
+  senderEmail: "orders@amazon.in",
+  avatarLetter: "A",
+  avatarColor: "orange",
+  subject: "Your order has been delivered",
+  preview: "Package delivered successfully...",
+  body: `Your order has been delivered successfully.
+
+Order ID: #402-9988776
+Delivered on: April 24, 2026
+
+Thank you for shopping with Amazon.`,
+  time: "24 Apr",
+  date: "24 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "primary",
+  hasAttachment: false
+},
+
+{
+  id: 61,
+  sender: "LinkedIn",
+  senderEmail: "notifications@linkedin.com",
+  avatarLetter: "in",
+  avatarColor: "linkedin",
+  subject: "You appeared in 12 searches this week",
+  preview: "Your profile is getting attention...",
+  body: `Your profile was viewed by recruiters 12 times this week.
+
+Update your profile to get more opportunities.`,
+  time: "23 Apr",
+  date: "23 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "social",
+  hasAttachment: false
+},
+
+{
+  id: 62,
+  sender: "Zomato",
+  senderEmail: "offers@zomato.com",
+  avatarLetter: "Z",
+  avatarColor: "red",
+  subject: "Flat ₹150 OFF on food 🍔",
+  preview: "Use code ZOM150...",
+  body: `Hungry?
+
+Get flat ₹150 OFF on your next order using code ZOM150.`,
+  time: "23 Apr",
+  date: "23 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "promotions",
+  hasAttachment: false
+},
+
+{
+  id: 63,
+  sender: "Internshala",
+  senderEmail: "no-reply@internshala.com",
+  avatarLetter: "I",
+  avatarColor: "blue",
+  subject: "New internships for you",
+  preview: "Apply now...",
+  body: `Hi Amit,
+
+New internships matching your skills are available.
+
+Apply now.`,
+  time: "22 Apr",
+  date: "22 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "primary",
+  hasAttachment: false
+},
+
+{
+  id: 64,
+  sender: "GitHub",
+  senderEmail: "noreply@github.com",
+  avatarLetter: "G",
+  avatarColor: "purple",
+  subject: "New issue opened in your repo",
+  preview: "Bug report added...",
+  body: `A new issue has been opened in your repository.
+
+Check it now on GitHub.`,
+  time: "22 Apr",
+  date: "22 Apr",
+  isUnread: true,
+  isStarred: true,
+  category: "updates",
+  hasAttachment: false
+},
+
+{
+  id: 65,
+  sender: "Swiggy",
+  senderEmail: "offers@swiggy.in",
+  avatarLetter: "S",
+  avatarColor: "orange",
+  subject: "50% OFF on your order 🍕",
+  preview: "Limited time offer...",
+  body: `Get 50% OFF using code SWIGGY50.
+
+Order now!`,
+  time: "21 Apr",
+  date: "21 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "promotions",
+  hasAttachment: false
+},
+
+{
+  id: 66,
+  sender: "Google",
+  senderEmail: "no-reply@google.com",
+  avatarLetter: "G",
+  avatarColor: "blue",
+  subject: "Security alert",
+  preview: "New login detected...",
+  body: `A new login was detected on your account.
+
+If not you, secure your account immediately.`,
+  time: "21 Apr",
+  date: "21 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "primary",
+  hasAttachment: false
+},
+
+{
+  id: 67,
+  sender: "Flipkart",
+  senderEmail: "offers@flipkart.com",
+  avatarLetter: "F",
+  avatarColor: "blue",
+  subject: "Big Saving Days is LIVE",
+  preview: "Up to 80% OFF...",
+  body: `Big Saving Days is live!
+
+Grab deals before they end.`,
+  time: "20 Apr",
+  date: "20 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "promotions",
+  hasAttachment: false
+},
+
+{
+  id: 68,
+  sender: "Twitter / X",
+  senderEmail: "info@x.com",
+  avatarLetter: "X",
+  avatarColor: "indigo",
+  subject: "New follower request",
+  preview: "Someone followed you...",
+  body: `You have a new follower.
+
+Check your profile.`,
+  time: "20 Apr",
+  date: "20 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "social",
+  hasAttachment: false
+},
+
+{
+  id: 69,
+  sender: "Paytm",
+  senderEmail: "offers@paytm.com",
+  avatarLetter: "P",
+  avatarColor: "blue",
+  subject: "Cashback offer available",
+  preview: "Recharge now...",
+  body: `Recharge and get cashback instantly.
+
+Limited offer.`,
+  time: "19 Apr",
+  date: "19 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "updates",
+  hasAttachment: false
+},
+
+{
+  id: 70,
+  sender: "Spotify",
+  senderEmail: "no-reply@spotify.com",
+  avatarLetter: "S",
+  avatarColor: "green",
+  subject: "Your weekly playlist 🎧",
+  preview: "New songs for you...",
+  body: `Your weekly playlist is ready.
+
+Enjoy new songs.`,
+  time: "19 Apr",
+  date: "19 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "promotions",
+  hasAttachment: false
+},
+
+{
+  id: 71,
+  sender: "Uber",
+  senderEmail: "support@uber.com",
+  avatarLetter: "U",
+  avatarColor: "black",
+  subject: "Your ride receipt",
+  preview: "Trip completed...",
+  body: `Your trip is complete.
+
+Thank you for riding with Uber.`,
+  time: "18 Apr",
+  date: "18 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "primary",
+  hasAttachment: false
+},
+
+{
+  id: 72,
+  sender: "Vercel",
+  senderEmail: "notifications@vercel.com",
+  avatarLetter: "V",
+  avatarColor: "indigo",
+  subject: "Deployment successful",
+  preview: "Project deployed...",
+  body: `Your project has been deployed successfully.
+
+Check live URL.`,
+  time: "18 Apr",
+  date: "18 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "updates",
+  hasAttachment: false
+},
+
+{
+  id: 73,
+  sender: "Domino's",
+  senderEmail: "offers@dominos.in",
+  avatarLetter: "D",
+  avatarColor: "blue",
+  subject: "Buy 1 Get 1 Free 🍕",
+  preview: "Limited offer...",
+  body: `Buy 1 Get 1 Free on pizzas.
+
+Order now.`,
+  time: "17 Apr",
+  date: "17 Apr",
+  isUnread: false,
+  isStarred: false,
+  category: "promotions",
+  hasAttachment: false
+},
+
+{
+  id: 74,
+  sender: "Yuvabot Lab",
+  senderEmail: "hr@yuvabot.com",
+  avatarLetter: "Y",
+  avatarColor: "#ea4335",
+  subject: "Welcome to Yuvabot Lab",
+  preview: "We are excited to have you onboard...",
+  body: `Welcome to Yuvabot Lab Pvt. Ltd.
+
+We are excited to have you onboard.
+
+Best regards,
+HR Team`,
+  time: "17 Apr",
+  date: "17 Apr",
+  isUnread: true,
+  isStarred: false,
+  category: "primary",
+  hasAttachment: false
 }
 
 ];
+
 
 const CATEGORIES = {
   // promotions: {
