@@ -568,7 +568,7 @@ Yuvabot Lab Pvt. Ltd.`,
         {
             type: "pdf",
             name: "Offer_Letter.pdf",
-            url: "Offer_Letter.pdf",
+            url: "./Offer Letter Amit Meena.pdf",
             size: "1MB"
         }
     ]
