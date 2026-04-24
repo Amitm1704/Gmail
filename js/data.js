@@ -533,7 +533,7 @@ Functions: 3 serverless functions deployed
     sender: "Dilip Bhardwaj",
     senderEmail: "hr@yuvabot.com",
     avatarLetter: 'D',
-    avatarColor: 'Yellow',
+    avatarColor: 'orange',
 
     subject: "Offer Letter from Yuvabot Lab Pvt. Ltd.",
     preview: "We are pleased to offer you an opportunity at Yuvabot Lab Pvt. Ltd.",
