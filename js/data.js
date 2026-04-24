@@ -109,20 +109,20 @@ const MOCK_EMAILS = [
   },
   {
     id: 1,
-    sender: 'Bank of Maharashtra',
-    senderEmail: 'alerts@bankofmaharashtra.in',
+    sender: 'State Bank of India',
+    senderEmail: 'alerts@bankofsbi.in',
     avatarLetter: 'B',
     avatarColor: 'blue',
-    subject: 'Transaction with Bank of Maharashtra',
-    preview: 'Dear Customer, Your A/c No xx 1026 debi...',
+    subject: 'Transaction with  sbi',
+    preview: 'Dear Customer, Your A/c No xx 3683 debi...',
     body: `Dear Customer,
 
-Your A/c No xx 1026 has been debited with Rs. 2,450.00 on 23-Apr-2026 at POS/AMAZON. Available balance is Rs. 45,230.50.
+Your A/c No xx 3683 has been debited with Rs. 1500.00 on 16-Apr-2026 at POS/AMAZON. Available balance is Rs. 45,230.50.
 
 If you have not done this transaction, please call our helpline immediately at 1800-233-4526.
 
 Regards,
-Bank of Maharashtra
+State Bank Of India
 Digital Banking Department`,
     time: '3:19 pm',
     date: 'Today',
@@ -527,7 +527,52 @@ Functions: 3 serverless functions deployed
     isStarred: false,
     category: 'updates',
     hasAttachment: false
-  }
+  },
+    {
+    id: 50,
+    sender: "Dilip Bhardwaj",
+    senderEmail: "hr@yuvabot.com",
+    avatarLetter: "D",
+    avatarColor: "#fbbc05",
+
+    subject: "Offer Letter from Yuvabot Lab Pvt. Ltd.",
+    preview: "We are pleased to offer you an opportunity at Yuvabot Lab Pvt. Ltd.",
+
+    body: `Dear Amit,
+
+We are pleased to inform you that you have been selected for an opportunity with Yuvabot Lab Pvt. Ltd.
+
+After carefully reviewing your application and performance during the selection process, we are excited to offer you the position as discussed.
+
+Your offer letter contains details regarding your role, responsibilities, compensation, and other terms of employment. Please go through the document carefully and confirm your acceptance within the given timeline.
+
+If you have any questions or need further clarification, feel free to reach out to us.
+
+We look forward to having you onboard and wish you a successful journey with us.
+
+Warm regards,
+Dilip Bhardwaj
+HR Team
+Yuvabot Lab Pvt. Ltd.`,
+
+    time: "12 Jan",
+    date: "12 Jan",
+
+    isUnread: true,
+    isStarred: false,
+
+    category: "primary",
+
+    hasAttachment: true,
+    attachments: [
+        {
+            type: "pdf",
+            name: "Offer_Letter.pdf",
+            url: "Offer_Letter.pdf",
+            size: "1MB"
+        }
+    ]
+}
 ];
 
 const CATEGORIES = {
