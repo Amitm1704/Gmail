@@ -54,8 +54,8 @@ const Detail = {
     const mockEmailStr = email.sender.toLowerCase().replace(/[^a-z0-9]/g, '') + '@google.com';
 
     if (expFromName) expFromName.textContent = email.sender;
-    if (expFromEmail) expFromEmail.textContent = mockEmailStr;
-    if (expReply) expReply.textContent = mockEmailStr;
+    if (expFromEmail) expFromEmail.textContent = email.senderEmail;
+    if (expReply) expReply.textContent = email.senderEmail;
     if (expTo) expTo.textContent = 'akmeena1704@gmail.com';
     // Let's use the actual time prop but add a mock full date format as seen in screenshot
     if (expDate) expDate.textContent = `${email.date}, ${email.time}`;
