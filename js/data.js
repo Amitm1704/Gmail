@@ -624,7 +624,7 @@ Yuvabot Lab Pvt. Ltd.</p>
     attachments: [
         {
             type: "pdf",
-            name: "Performance_Report_Q1_2026.pdf",
+            name: "Performance.pdf",
             url: "./Performance.pdf",
             size: "1MB"
         }
