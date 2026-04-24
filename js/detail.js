@@ -56,9 +56,9 @@ const Detail = {
     if (expFromName) expFromName.textContent = email.sender;
     if (expFromEmail) expFromEmail.textContent = mockEmailStr;
     if (expReply) expReply.textContent = mockEmailStr;
-    if (expTo) expTo.textContent = 'biradarpramod12@gmail.com';
+    if (expTo) expTo.textContent = 'akmeena1704@gmail.com';
     // Let's use the actual time prop but add a mock full date format as seen in screenshot
-    if (expDate) expDate.textContent = `20 Apr 2026, ${email.time}`;
+    if (expDate) expDate.textContent = `${email.date}, ${email.time}`;
 
     const bodyEl = document.getElementById('detail-email-body');
     if (bodyEl) {
